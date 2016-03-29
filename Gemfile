@@ -1,9 +1,9 @@
-if ENV['RUBYTAOBAO']
-  #puts "use taobao source"
-  source 'http://ruby.taobao.org'
-else
-  source 'https://rubygems.org'
-end
+# if ENV['RUBYTAOBAO']
+#   #puts "use taobao source"
+#   source 'http://ruby.taobao.org'
+# else
+  source 'https://gems.ruby-china.org'
+# end
 gem 'rails', '4.1.9'
 gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
@@ -28,7 +28,8 @@ gem 'kaminari', github: 'amatsuda/kaminari'
 gem 'progress_bar'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
-
+gem 'mysql2', '~> 0.3.13'
+gem 'redis-namespace'
 #background cron
 gem 'sidekiq'
 gem 'sinatra', '>= 1.3.0', require: nil

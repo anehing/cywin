@@ -15,7 +15,7 @@ end
 puts 'DEFAULT USERS'
 user = User.where(email: ENV['ADMIN_EMAIL']).first_or_create(name: ENV['ADMIN_NAME'], password: ENV['ADMIN_PASSWORD'], password_confirmation: ENV['ADMIN_PASSWORD'])
 puts 'user: ' << user.name
-user.save!(:validate => false)
+user.save!(:validate=> false)
 user.confirm!
 user.add_role :admin
 

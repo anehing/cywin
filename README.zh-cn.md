@@ -114,3 +114,9 @@ Cywin
 本系统遵守 [MIT](http://www.opensource.org/licenses/mit-license.php) 和 [GPL](http://www.gnu.org/licenses/gpl.html) 双重授权.
 
 额外地, 系统中 Logo 等图片资源不得用于商业目的.
+
+
+## cd config/sunspot_solr_mmseg4j
+java -jar start.jar
+## rake sunspot:solr:start #后台运行
+   rake sunspot:solr:run   #在前台运行
