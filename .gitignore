@@ -29,6 +29,7 @@ db/*.sqlite3
 .sass-cache
 /config/config.yml
 /config/database.yml
+/config/sunspot_solr_mmseg4j
 /coverage.data
 /coverage/
 /db/*.javadb/
